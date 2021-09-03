@@ -1886,3 +1886,18 @@ a.btn.btn-primary.dropdown-toggle {
 .o_DiscussMobileMailboxSelection_button {
     box-shadow: none;
 }
+
+//canvan quick create status header
+.o_kanban_view .o_column_quick_create .o_quick_create_unfolded .o_kanban_header {
+	height: auto;
+	& input {
+    		margin-bottom: 0px !important;
+	}
+	.btn.btn-link.o_kanban_examples {
+		padding: 0 !important;
+    		height: revert !important;
+	}
+	.btn.btn-primary.o_kanban_add {
+		border-radius: 0 4px 4px 0 !important;
+	}
+}
