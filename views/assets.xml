@@ -1,0 +1,41 @@
+<odoo>
+    <data>
+        <template id="code_backend_theme_enterprise_assets" name="Code Backend Theme Assets" inherit_id="web.assets_backend">
+            <xpath expr=".">
+                <link rel="stylesheet" href="/code_backend_theme_enterprise/static/src/scss/theme_accent.scss"/>
+                <link rel="stylesheet" href="/code_backend_theme_enterprise/static/src/scss/navigation_bar.scss"/>
+                <link rel="stylesheet" href="/code_backend_theme_enterprise/static/src/scss/datetimepicker.scss"/>
+                <link rel="stylesheet" href="/code_backend_theme_enterprise/static/src/scss/theme.scss"/>
+                <link rel="stylesheet" href="/code_backend_theme_enterprise/static/src/scss/sidebar.scss"/>
+                <script type="application/javascript" src="/code_backend_theme_enterprise/static/src/js/chrome/sidebar.js"/>
+                <script type="application/javascript" src="/code_backend_theme_enterprise/static/src/js/chrome/sidebar_menu.js"/>
+                <script type="application/javascript" src="/code_backend_theme_enterprise/static/src/js/chrome/top_bar.js"/>
+                <script type="application/javascript" src="/code_backend_theme_enterprise/static/src/js/fields/basic_fields.js"/>
+                <script type="application/javascript" src="/code_backend_theme_enterprise/static/src/js/fields/graph.js"/>
+                <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet"/>
+            </xpath>
+        </template>
+        <template id="code_backend_theme_enterprise_assets_frontend" inherit_id="web.assets_frontend">
+            <xpath expr="//link[last()]" position="after">
+                <link rel="stylesheet" href="/code_backend_theme_enterprise/static/src/scss/login.scss"/>
+                <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet"/>
+            </xpath>
+        </template>
+
+        <template id="webclient_bootstrap_code" inherit_id="web.webclient_bootstrap">
+
+            <xpath expr="//t[@t-set='head']" position="after">
+                <t t-set="head_web_code">
+                    <!-- Chrome, Firefox OS and Opera -->
+                    <meta name="theme-color" content="#24292e"/>
+
+                    <!-- Windows Phone -->
+                    <meta name="msapplication-navbutton-color" content="#24292e"/>
+                    <meta name="msapplication-TileColor" content="#24292e"/>
+                </t>
+                <t t-set="head" t-value="head_web_code + (head or '')"/>
+            </xpath>
+        </template>
+    
+    </data>
+</odoo>
