@@ -7,6 +7,7 @@
                 <link rel="stylesheet" href="/code_backend_theme_enterprise/static/src/scss/datetimepicker.scss"/>
                 <link rel="stylesheet" href="/code_backend_theme_enterprise/static/src/scss/theme.scss"/>
                 <link rel="stylesheet" href="/code_backend_theme_enterprise/static/src/scss/sidebar.scss"/>
+                <link rel="stylesheet" href="/code_backend_theme_enterprise/static/src/scss/ajustes.scss"/>
                 <script type="application/javascript" src="/code_backend_theme_enterprise/static/src/js/chrome/sidebar.js"/>
                 <script type="application/javascript" src="/code_backend_theme_enterprise/static/src/js/chrome/sidebar_menu.js"/>
                 <script type="application/javascript" src="/code_backend_theme_enterprise/static/src/js/chrome/top_bar.js"/>
