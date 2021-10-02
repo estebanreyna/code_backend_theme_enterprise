@@ -53,3 +53,49 @@
     max-width: 100%;
     padding: 0 0 0 16px;
 }
+.o_setting_container .o_field_widget.o_field_many2one.o_with_button.oe_inline {
+    margin-left: initial !important;
+}
+
+// ajuste a vista kanvan en mobil
+@media (max-width: 768px){
+    .o_kanban_view.o_kanban_grouped {
+        margin: 0px;
+        border-radius: 0px;
+    }
+    .o_kanban_view.o_kanban_grouped .o_kanban_mobile_tabs_container{
+    background-color: #343a40;
+    }
+}
+
+//views dropdown menu 
+.dropdown-menu-right {
+    right: 43px;
+    top: -9px;
+    left: auto;
+    padding: 4px;
+}
+@media (max-width: 767.98px)
+.o_control_panel .o_cp_bottom_right > .o_cp_switch_buttons > .btn:first-child, .o_control_panel .o_account_reports_page .o_cp_bottom_right > .o_cp_switch_buttons > .oe_link_reports:first-child, .o_account_reports_page .o_control_panel .o_cp_bottom_right > .o_cp_switch_buttons > .oe_link_reports:first-child, .o_control_panel .o_radio_hide_bullet .o_cp_bottom_right > .o_cp_switch_buttons > label:first-child, .o_radio_hide_bullet .o_control_panel .o_cp_bottom_right > .o_cp_switch_buttons > label:first-child {
+    &:focus {
+        margin-left: 0;
+        background: $bg_darken;
+        color: #fff !important;
+        border-radius: 0 4px 4px 0 !important;
+    }
+}
+.o_cp_bottom_right .btn-group.o_cp_switch_buttons.show .dropdown-menu-right {
+    right: 41px;
+    top: -2px;
+    left: auto;
+    padding: 0 0 0 5px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background: #343a40;
+
+    .btn.btn-secondary {
+        background: #343a40 !important;
+        border-color: #343a40 !important;
+        color: #fff !important;
+    }
+}
