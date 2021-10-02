@@ -12,3 +12,40 @@
         }
     }
 }
+
+// ajuste a menu ajustes (settings)
+
+.o_setting_container {
+    background: #ffffff;
+    padding: 0 0 0 0;
+}
+.settings_tab {
+	background-color: #ffffff !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border-radius: 0px;
+}
+.o_base_settings .o_setting_container .settings_tab .tab {
+    color: #474954 !important;
+}
+.o_base_settings .o_setting_container .settings_tab .selected, .o_base_settings .o_setting_container .settings_tab .selected span {
+    box-shadow: none !important;
+    color: #0d082a !important;
+    font-weight: 800 !important;
+    background: #f2f2f2 !important;
+}
+.settings {
+    margin-left: 0px;
+    background-color: #ffffff !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    border-left: 1px solid #e6e6e6;
+}
+.o_base_settings .o_setting_container .settings > .app_settings_block h2 {
+    margin-bottom: 0;
+    padding: 0.25rem 16px;
+    background-color: unset;
+    font-size: 2rem;
+    font-weight: 800;
+}
