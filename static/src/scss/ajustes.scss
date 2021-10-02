@@ -75,13 +75,14 @@
     left: auto;
     padding: 4px;
 }
-@media (max-width: 767.98px)
-.o_control_panel .o_cp_bottom_right > .o_cp_switch_buttons > .btn:first-child, .o_control_panel .o_account_reports_page .o_cp_bottom_right > .o_cp_switch_buttons > .oe_link_reports:first-child, .o_account_reports_page .o_control_panel .o_cp_bottom_right > .o_cp_switch_buttons > .oe_link_reports:first-child, .o_control_panel .o_radio_hide_bullet .o_cp_bottom_right > .o_cp_switch_buttons > label:first-child, .o_radio_hide_bullet .o_control_panel .o_cp_bottom_right > .o_cp_switch_buttons > label:first-child {
-    &:focus {
-        margin-left: 0;
-        background: $bg_darken;
-        color: #fff !important;
-        border-radius: 0 4px 4px 0 !important;
+@media (max-width: 767.98px) {
+    .o_control_panel .o_cp_bottom_right > .o_cp_switch_buttons > .btn:first-child, .o_control_panel .o_account_reports_page .o_cp_bottom_right > .o_cp_switch_buttons > .oe_link_reports:first-child, .o_account_reports_page .o_control_panel .o_cp_bottom_right > .o_cp_switch_buttons > .oe_link_reports:first-child, .o_control_panel .o_radio_hide_bullet .o_cp_bottom_right > .o_cp_switch_buttons > label:first-child, .o_radio_hide_bullet .o_control_panel .o_cp_bottom_right > .o_cp_switch_buttons > label:first-child {
+        &:focus {
+            margin-left: 0;
+            background: $bg_darken;
+            color: #fff !important;
+            border-radius: 0 4px 4px 0 !important;
+        }
     }
 }
 .o_cp_bottom_right .btn-group.o_cp_switch_buttons.show .dropdown-menu-right {
