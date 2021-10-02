@@ -108,10 +108,15 @@
     }
 }
 
-// close buton sidebar
+// close button sidebar
 .sidebar_panel .sidebar_close {
     text-align: initial;
     padding-left: 28px;
     height: 36px;
     padding-top: 15px;
+}
+
+// chatter toolbar buttons
+.o_ChatterTopbar.o_Chatter_topbar .o_ChatterTopbar_actions .btn.btn-link {
+    padding: 2px 8px !important;
 }
