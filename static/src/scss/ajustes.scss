@@ -117,6 +117,14 @@
 }
 
 // chatter toolbar buttons
-.o_ChatterTopbar.o_Chatter_topbar .o_ChatterTopbar_actions .btn.btn-link {
-    padding: 2px 8px !important;
+@media (max-width: 767.98px) {
+    .o_ChatterTopbar.o_Chatter_topbar .o_ChatterTopbar_actions 
+        .btn.btn-link {
+            padding: 2px 8px !important;
+        }
+        .o_ChatterTopbar_rightSection .btn.btn-link {
+            padding: 2px 6px !important;
+        }
+
+    }
 }
