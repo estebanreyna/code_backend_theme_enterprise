@@ -83,6 +83,12 @@
             color: #fff !important;
             border-radius: 0 4px 4px 0 !important;
         }
+        &:visited {
+            margin-left: revert;
+            background: revert;
+            color: revert;
+            border-radius: revert;
+        }
     }
 }
 .o_cp_bottom_right .btn-group.o_cp_switch_buttons.show .dropdown-menu-right {
