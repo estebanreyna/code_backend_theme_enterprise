@@ -382,7 +382,7 @@ tr.o_data_row {
 }
 th.o_list_record_selector {
     color: #495057 !important;
-    border-color: #eff2f7 !important;
+    border-color: $gray_clean !important;
     background-color: #f8f9fa !important;
 }
 .table>:not(caption)>*>* {
@@ -663,7 +663,7 @@ th.o_list_record_selector {
     background: $primary_accent !important;
 }
 .o_Message.o-not-discussion {
-    background-color: #eff2f7;
+    background-color: $gray_clean;
     margin: 5px;
     border-radius: 5px;
     border-bottom: none;
