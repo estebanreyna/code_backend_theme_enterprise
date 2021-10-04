@@ -188,6 +188,10 @@ button.btn.btn-link.o_ChatterTopbar_button.o_ChatterTopbar_buttonLogNote.o-borde
 
 // inputs
 
+select.o_input.o_field_widget {
+    background-position: calc(100% - 10px);
+    background-size: 3.2%;
+}
 .o_field_widget {
     &.o_field_many2one.o_with_button {
         input {
@@ -199,6 +203,7 @@ button.btn.btn-link.o_ChatterTopbar_button.o_ChatterTopbar_buttonLogNote.o-borde
             color: #ffffff !important;
             background: #133cff !important;
             width: 35px;
+            height: 40px !important;
             border-radius: 0 .25rem .25rem 0 !important;
         }
     }
@@ -242,5 +247,18 @@ button.btn.btn-link.o_ChatterTopbar_button.o_ChatterTopbar_buttonLogNote.o-borde
         width: 27px;
         height: 40px;
         margin-left: -27px;
+
+        &:after {
+            content: "";
+            display: inline-block;
+            width: 0;
+            height: 0;
+            vertical-align: middle;
+            border-bottom: 0;
+            border-left: 0.4em solid transparent;
+            border-right: 0.4em solid transparent;
+            border-top: 0.4em solid;
+            -moz-transform: scale(0.9999);
+        }
     }
 }
