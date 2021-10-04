@@ -1,4 +1,4 @@
-odoo.define('code_backend_theme_enterprise.SidebarMenu', function (require) {
+odoo.define('code_backend_theme_enterprise_2.SidebarMenu', function (require) {
 "use strict";
 
 /**
@@ -8,7 +8,7 @@ odoo.define('code_backend_theme_enterprise.SidebarMenu', function (require) {
 
     const config = require('web.config');
     const Menu = require("web_enterprise.Menu");
-    const SideBar = require("code_backend_theme_enterprise.SideBar");
+    const SideBar = require("code_backend_theme_enterprise_2.SideBar");
 
     Menu.include({
         start() {

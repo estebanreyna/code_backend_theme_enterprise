@@ -21,7 +21,7 @@
 #############################################################################
 
 {
-    "name": "Code Backend Theme V14 Enterprise",
+    "name": "Code Backend Theme V14 Enterprise 2",
     "summary": "Minimalist and elegant backend theme for Odoo 14 Enterprise",
     "description": """Minimalist and elegant backend theme for Odoo 14 Backend Theme Enterprise, Enterprise Theme, Backend Theme, Enterprise Backend Theme, V14 Theme""",
     "category": "Theme/Backend",
@@ -37,8 +37,6 @@
     ],
     "qweb": [
         'static/src/xml/styles.xml',
-        'static/src/xml/top_bar.xml',
-        'static/src/xml/sidebar.xml',
     ],
     'images': [
         'static/description/banner.png',

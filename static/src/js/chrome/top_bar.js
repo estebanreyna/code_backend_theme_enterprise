@@ -1,4 +1,4 @@
-odoo.define('code_backend_theme_enterprise.TopBar', function (require) {
+odoo.define('code_backend_theme_enterprise_2.TopBar', function (require) {
 "use strict";
 
 /**
