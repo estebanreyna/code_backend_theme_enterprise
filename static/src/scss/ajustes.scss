@@ -148,6 +148,20 @@ button.btn.btn-link.o_ChatterTopbar_button.o_ChatterTopbar_buttonLogNote.o-borde
     font-size: 1.8rem !important;
 }
 
+// chatter container message composer
+
+.o_ChatterTopbar_button.o-active {
+    color: #875A7B;
+    background-color: #eff2f7 !important;
+    border: none;
+    border-radius: 4px 4px 0 0 !important;
+}
+.o_ChatterContainer .o_Chatter_fixedPanel .o_Composer.o_Chatter_composer.o-bordered {
+    border: none !important;
+    background: #e5e9eb;
+    border-radius: 0 5px 5px 5px;
+}
+
 // hoja de vista form ancho completo
 
 @media (max-width: 480px) {
