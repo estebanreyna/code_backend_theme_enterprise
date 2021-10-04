@@ -37,8 +37,6 @@
     ],
     "qweb": [
         'static/src/xml/styles.xml',
-        'static/src/xml/top_bar.xml',
-        'static/src/xml/sidebar.xml',
     ],
     'images': [
         'static/description/banner.png',
