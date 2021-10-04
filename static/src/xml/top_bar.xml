@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <templates id="template" xml:space="preserve">
     <t t-inherit="web_enterprise.Menu" t-inherit-mode="extension" owl="1">
-        <xpath expr="//nav[hasclass('o_main_navbar')]" position="replace">
+        <xpath expr="//nav[hasclass('o_main_navbar')]" position="after">
             <nav class="o_main_navbar">
                 <div class="top_heading">
                     <ul class="o_menu_apps">
