@@ -343,3 +343,28 @@ select.o_input.o_field_widget {
         }
     }
 }
+
+// dropdown menus actions and status
+
+.o_form_view .o_form_statusbar > .o_statusbar_status > .dropdown-menu {
+    .dropdown-item.btn {
+        text-align: right;
+    }
+    &, .o_form_view .o_form_statusbar > .o_statusbar_buttons > .btn-group > .dropdown-menu {
+        padding: 16px 10px;
+        min-width: unset;
+        max-width: 250px;
+        width: unset;
+        border: none;
+
+        .dropdown-item.btn {
+            min-width: unset;
+            width: 100%;
+            border: none !important;
+            height: 45px;
+            border-radius: 0;
+            margin-bottom: 0;
+            text-align: left;
+        }
+    }
+}
