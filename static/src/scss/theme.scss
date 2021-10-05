@@ -40,6 +40,9 @@ background: $bg_darken !important;
 //   box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03) !important;
   background-color: $bg_darken !important;
   color: #fff !important;
+  & > .o_menu_toggle {
+    width: 62px;
+  }
 }
 
 .top_heading {
@@ -63,10 +66,10 @@ background: $bg_darken !important;
     color: $f_color !important;
 }
 .o_main_navbar > ul > li > a, .o_main_navbar > ul > li > label {
-    height: 62px;
+    height: $navbar-height;
     padding: 0 8px;
     color: $f_color !important;
-    line-height: 62px;
+    line-height: $navbar-height;
 }
 .o_main_navbar > .o_menu_sections > li > a:hover, .o_main_navbar > .o_menu_systray > li > a:hover, .o_main_navbar > .o_menu_sections > li.show > a, .o_main_navbar > .o_menu_systray > li.show > a {
     background-color: $bg_darken !important;
@@ -1665,10 +1668,14 @@ div.o_input > .o_input {
 }
 @media (max-width:767px){
     .o_main_navbar > ul.o_menu_systray {
-        position: static !important;
+        /*position: static !important;*/
         height: auto !important;
-        text-align: right;
-        display: flex;
+        left: $navbar-height;
+        /*text-align: right;*/
+        /*display: flex;*/
+        & > li .dropdown-menu.show {
+            top: $navbar-height;
+        }
     }
 }
 @media (max-width:480px) {
@@ -1719,8 +1726,9 @@ div.o_input > .o_input {
         background: #24292e!important;
     }
     .o_MessagingMenu_dropdownMenu.o-mobile {
-        top: 70px;
+        top: $navbar-height;
     }
+
     .o_control_panel .o_cp_bottom_right {
         flex-wrap: wrap;
     }
