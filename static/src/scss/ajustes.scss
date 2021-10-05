@@ -78,12 +78,15 @@
         padding: 18px 16px;
         margin: 8px;
         margin-bottom: 0;
-        box-shadow: 0 1px 6px rgba(18, 38, 63, .8) !important;
+        box-shadow: 0 1px 6px rgba(18, 38, 63, .1) !important;
         width: calc(100% - 16px);
         width: -webkit-fill-available;
     }
 }
-
+a.btn.btn-primary.dropdown-toggle {
+    display: inline-flex;
+    align-items: center;
+}
 .o_kanban_view .oe_kanban_card .o_dropdown_kanban .dropdown-toggle, .o_kanban_view .o_kanban_record .o_dropdown_kanban .dropdown-toggle {
     padding: 8px 8px !important;
 }
