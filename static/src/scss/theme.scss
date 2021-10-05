@@ -1881,7 +1881,7 @@ a.btn.btn-primary.dropdown-toggle {
     line-height: 1.5!important;
 }
 
-.o_form_view .o_form_statusbar > .o_statusbar_buttons > .btn-group > .dropdown-menu.o_form_view .o_form_statusbar > .o_statusbar_status > .dropdown-menu {
+.o_form_view .o_form_statusbar > .o_statusbar_buttons > .btn-group > .dropdown-menu, .o_form_view .o_form_statusbar > .o_statusbar_status > .dropdown-menu {
     padding: 0;
     min-width: unset;
     max-width: 250px;
