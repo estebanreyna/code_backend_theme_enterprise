@@ -381,6 +381,14 @@ ul.o_menu_sections{
 
 .o_burger_menu .o_burger_menu_topbar{
     background-color: $bg_darken;
+    .o_burger_menu_close {
+      display: inline-flex;
+      align-items: center;
+    }
+    .dropdown-toggle {
+      display: inline-flex;
+      align-items: center;
+    }
 }
 
 .o_burger_menu .o_burger_menu_content .o_burger_menu_app ul .o_menu_entry_lvl_1{

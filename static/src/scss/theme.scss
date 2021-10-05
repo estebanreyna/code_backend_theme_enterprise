@@ -1779,7 +1779,7 @@ div.o_input > .o_input {
     .o_field_widget.o_field_image .o_form_image_controls > .fa.o_select_file_button {
         background: #74788d;
     }
-    .o_menu_sections, .o_menu_systray, .o_web_client > header {
+    .o_menu_sections, .o_web_client > header {
         background: $bg_white !important;
     }
 }
@@ -1802,10 +1802,10 @@ div.o_input > .o_input {
     border-radius: 10px;
 }
 @media (max-width: 768px){
-    .o_main_navbar{
-        display: flex !important;
-        justify-content: space-between !important;
-    }
+    // .o_main_navbar{
+    //     display: flex !important;
+    //     justify-content: space-between !important;
+    // }
     .o_control_panel .o_cp_searchview {
         min-height: 35px;
         width: auto;
