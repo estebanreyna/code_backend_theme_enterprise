@@ -11,9 +11,9 @@ a {
 a:hover {
     color: $primary_hover;
 }
-a.btn {
-    height: auto !important;
-}
+//111 a.btn {
+//     height: auto !important;
+// }
 
 .o_main_navbar, .o_searchview_facet_label {
   background-color: transparent !important;
@@ -336,9 +336,9 @@ button[name="action_uninstall"]:focus {
     opacity: 1 !important;
     border-radius: 0px !important;
 }
-.oe_module_action .btn {
-    height: auto !important;
-}
+//111 .oe_module_action .btn {
+//     height: auto !important;
+// }
 .o_cp_buttons a.btn {
     display: flex !important;
     align-items: center;
@@ -1691,9 +1691,9 @@ div.o_input > .o_input {
         border: none !important;
         padding:0px !important;
     }
-    html .o_web_client > .o_action_manager {
-        overflow: auto !important;
-    }
+    // html .o_web_client > .o_action_manager {
+    //     overflow: auto !important;
+    // }
     ul.o_menu_systray.topbar_icon li:nth-child(1) {
         margin-left: 20px;
     }
@@ -1823,7 +1823,7 @@ div.o_input > .o_input {
         /*border: 1px solid #efefef;*/
         border: none;
         border-bottom: none;
-        box-shadow: 0 2px 3px #8f8f8f1c;
+        box-shadow: none;
         border-radius: 100px;
     }
     .o_kanban_view.o_kanban_grouped {
@@ -1860,7 +1860,7 @@ div.o_input > .o_input {
     width: 8px !important;
 }
 .breadcrumb {
-    background-color: #f9fafb;
+    background-color: transparent;
 }
 .o_form_view .oe_avatar > img {
     max-width: 90px;

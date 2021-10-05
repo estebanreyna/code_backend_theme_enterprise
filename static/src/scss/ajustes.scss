@@ -68,6 +68,22 @@
     .o_kanban_view.o_kanban_grouped .o_kanban_mobile_tabs_container{
     background-color: #343a40;
     }
+    .o_kanban_view.o_kanban_grouped[class] .o_kanban_group:not(.o_column_folded) .o_kanban_record, .o_kanban_view.o_kanban_grouped[class] .o_kanban_group:not(.o_column_folded) .o_kanban_quick_create {
+        border-radius: 0;
+    }
+    .o_kanban_view.o_kanban_grouped[class] .o_kanban_group:not(.o_column_folded) .o_kanban_record, .o_kanban_view.o_kanban_grouped[class] .o_kanban_group:not(.o_column_folded) .o_kanban_quick_create {
+        border: none;
+        border-radius: inherit;
+        border-bottom: none;
+        padding: 18px 16px;
+        margin: 8px;
+        margin-bottom: 0;
+        box-shadow: 0 1px 6px rgb(18 38 63 / 8%) !important;
+    }
+}
+
+.o_kanban_view .oe_kanban_card .o_dropdown_kanban .dropdown-toggle, .o_kanban_view .o_kanban_record .o_dropdown_kanban .dropdown-toggle {
+    padding: 8px 8px !important;
 }
 
 //views dropdown menu 
