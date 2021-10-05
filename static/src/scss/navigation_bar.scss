@@ -356,7 +356,12 @@ background-color: #3d9bbb;
 // meeee
 
 .o_MessagingMenu .o_MessagingMenu_counter {
-    background-color : #556ee6 !important;
+    background-color : $primary_accent !important;
+}
+.o_mail_systray_item .o_notification_counter {
+  background: #ff4d4d;
+  border-color: #ff4d4d;
+  border: none;
 }
 
 ul.o_menu_sections{
@@ -381,6 +386,7 @@ ul.o_menu_sections{
 
 .o_burger_menu .o_burger_menu_topbar{
     background-color: $bg_darken;
+    flex: 0 0 62px;
     .o_burger_menu_close {
       display: inline-flex;
       align-items: center;
