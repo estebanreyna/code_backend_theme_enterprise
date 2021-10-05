@@ -39,6 +39,16 @@ color: #ffffff !important;
   color: #f46a6a !important;
 }
 
+.o_main_navbar > a, .o_main_navbar > button {
+  height: $navbar-height;
+  line-height: $navbar-height;
+}
+
+.o_main_navbar > .o_menu_brand {
+  line-height: 62px;
+  font-weight: 800;
+}
+
 .o_main_navbar > a:hover {
   background-color: lighten($primary_accent, 10%) !important;
 }
@@ -410,9 +420,9 @@ ul.o_menu_sections{
 //     display: none;
 // }
 
-nav.o_main_navbar.small_nav {
-    justify-content: left !important;
-}
+// nav.o_main_navbar.small_nav {
+//     justify-content: left !important;
+// }
 
 //ajustes nucleeo
 
