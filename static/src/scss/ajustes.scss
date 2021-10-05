@@ -268,3 +268,48 @@ select.o_input.o_field_widget {
 .o_dropdown_menu .o_menu_item {
     padding: 12px;
 }
+
+//ventana modal
+
+.modal.o_technical_modal.o_modal_full .modal-dialog .modal-content .modal-header {
+    @media screen and (max-width: 575.98px) {
+        background: $primary_accent;
+    }
+}
+.modal.o_modal_full .modal-content{
+    .modal-body { 
+        .o_kanban_view.o_kanban_ungrouped .o_kanban_record {
+            padding: 12px;
+        }
+        .o_form_view .oe_avatar > img {
+            max-width: 100%;
+            max-height: 100%;
+            width: 100%;
+            vertical-align: top;
+            border: 1px solid #f1f1f2;
+            border-radius: 0;
+        }
+        &.o_act_window .o_group.o_inner_group > tbody > tr > td > .o_field_image.o_field_widget.oe_avatar.o_user_select_none {
+            width: 32%;
+            float: left;
+        }
+        .modal-footer{
+            flex-wrap: nowrap;
+            text-align: left;
+            -webkit-box-pack: start;
+            justify-content: flex-start;
+            @media screen and (max-width:767.98px) {
+                padding-top: 1.5rem;
+                padding-bottom: 1rem;
+                
+            }
+            .btn {
+                width: auto;
+                text-overflow: ellipsis;
+                white-space: inherit;
+                padding: 8px 2px !important;
+                height: 46px !important;
+            }
+        }
+    }
+}
