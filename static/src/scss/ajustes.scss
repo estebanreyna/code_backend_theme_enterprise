@@ -1,7 +1,7 @@
 // listas dentro del vista form 
 
 @media (min-width: 992px) and (max-width: 1533.98px){
-    .o_form_view .o_notebook > .tab-content > .tab-pane > :first-child.o_field_x2many.o_field_x2many_list, .o_form_view .o_notebook > .tab-content > .tab-pane > :first-child.o_field_widget.o_invisible_modifier + .o_field_x2many.o_field_x2many_list{
+    .o_form_view .o_notebook > .tab-content > .tab-pane > :first-child.o_field_x2many.o_field_x2many_list, .o_form_view .o_notebook > .tab-content > .tab-pane > :first-child.oe_form_field_html, .o_form_view .o_notebook > .tab-content > .tab-pane > :first-child.o_field_widget.o_invisible_modifier + .o_field_x2many.o_field_x2many_list{
         margin-left: -16px;
         margin-right: -16px;
     }
@@ -13,6 +13,7 @@
         }
     }
 }
+
 
 // ajuste a menu ajustes (settings)
 
@@ -109,13 +110,13 @@
     }
 }
 
-// close button sidebar
-.sidebar_panel .sidebar_close {
-    text-align: initial;
-    padding-left: 28px;
-    height: 36px;
-    padding-top: 15px;
-}
+// // close button sidebar
+// .sidebar_panel .sidebar_close {
+//     text-align: initial;
+//     padding-left: 28px;
+//     height: 36px;
+//     padding-top: 15px;
+// }
 
 // chatter toolbar buttons
 @media (max-width: 767.98px) {
