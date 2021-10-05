@@ -293,23 +293,23 @@ select.o_input.o_field_widget {
             width: 32%;
             float: left;
         }
-        .modal-footer{
-            flex-wrap: nowrap;
-            text-align: left;
-            -webkit-box-pack: start;
-            justify-content: flex-start;
-            @media screen and (max-width:767.98px) {
-                padding-top: 1.5rem;
-                padding-bottom: 1rem;
-                
-            }
-            .btn {
-                width: auto;
-                text-overflow: ellipsis;
-                white-space: inherit;
-                padding: 8px 2px !important;
-                height: 46px !important;
-            }
+    }
+    .modal-footer{
+        flex-wrap: nowrap;
+        text-align: left;
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+        @media screen and (max-width:767.98px) {
+            padding-top: 1.5rem;
+            padding-bottom: 1rem;
+            
+        }
+        .btn {
+            width: auto;
+            text-overflow: ellipsis;
+            white-space: inherit;
+            padding: 8px 2px !important;
+            height: 46px !important;
         }
     }
 }
