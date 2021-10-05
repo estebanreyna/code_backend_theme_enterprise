@@ -118,6 +118,11 @@
 //     padding-top: 15px;
 // }
 
+//chatter width
+.o_ChatterContainer {
+    padding: 10px 10%;
+}
+
 // chatter toolbar buttons
 @media (max-width: 767.98px) {
     .o_ChatterTopbar.o_Chatter_topbar .o_ChatterTopbar_actions {
@@ -268,6 +273,9 @@ select.o_input.o_field_widget {
 
 .o_dropdown_menu .o_menu_item {
     padding: 12px;
+}
+.o_cp_action_menus .o_dropdown_menu .o_menu_item {
+    padding: inherit;
 }
 
 //ventana modal
