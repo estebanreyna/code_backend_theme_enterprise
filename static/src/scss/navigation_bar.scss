@@ -1,3 +1,10 @@
+:root {
+  --header-height : 62px;
+  @media screen and (min-width: 767.98px) {
+    --header-height : 46px;
+  }
+}
+
 .o_calendar_buttons > button > .fa{
 color: #ffffff !important;
 }
