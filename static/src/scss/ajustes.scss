@@ -390,9 +390,14 @@ select.o_input.o_field_widget {
             text-align: left;
         }
     }
-    & > .o_statusbar_status > .dropdown-menu {
-    .dropdown-item.btn {
-        text-align: right;
+    & > .o_statusbar_status {
+        & > .dropdown-menu {
+        .dropdown-item.btn {
+            text-align: right;
+        }
+        .o_arrow_button {
+            border-radius: 4px;
+        }
     }
 }
 }
