@@ -28,10 +28,6 @@
             <xpath expr="//meta[@name='theme-color']" position="after">
                 
                     <meta name="theme-color" content="#24292e"/>
-
-
-                
-                <t t-set="head" t-value="head_web_code + (head or '')"/>
             </xpath>
         </template>
     
