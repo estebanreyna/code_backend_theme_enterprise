@@ -391,12 +391,12 @@ select.o_input.o_field_widget {
         }
     }
     & > .o_statusbar_status {
+        & .o_arrow_button {
+            border-radius: 4px;
+        }
         & > .dropdown-menu {
         .dropdown-item.btn {
             text-align: right;
-        }
-        .o_arrow_button {
-            border-radius: 4px;
         }
     }
 }
