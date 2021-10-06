@@ -249,7 +249,7 @@ select.o_input.o_field_widget {
         button.fa.fa-external-link.btn.btn-secondary.o_external_button {
             padding: 2px !important;
             color: #ffffff !important;
-            background: #133cff !important;
+            background: $primary_accent !important;
             width: 35px;
             height: 40px !important;
             border-radius: 0 .25rem .25rem 0 !important;
@@ -422,16 +422,5 @@ select.o_input.o_field_widget {
     & > .btn-group:not(:first-child) > .btn {
         border-top-left-radius: 6px;
         border-bottom-left-radius: 6px;
-    }
-}
-
-
-@media (max-width: 767.98px) {
-    .o_main_navbar {
-        height: $navbar-height-sm;
-        
-        & > div {
-            margin: 10px 0px;
-        }
     }
 }

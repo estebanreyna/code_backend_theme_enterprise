@@ -8,9 +8,9 @@
 .o_calendar_buttons > button > .fa{
 color: #ffffff !important;
 }
-.o_main_navbar, .btn-primary, .btn-primary:active, .o_searchview_facet_label {
-  background-color: $primary_accent !important;
-  color: $inverse_accent !important;
+.btn-primary, .btn-primary:active, .o_searchview_facet_label {
+  background-color: $primary_accent;
+  color: $inverse_accent;
 }
 .o_search_panel_section_icon {
   color: $primary_accent !important;

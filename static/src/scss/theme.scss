@@ -20,10 +20,10 @@ a:hover {
 //     height: auto !important;
 // }
 
-.o_main_navbar, .o_searchview_facet_label {
-  background-color: transparent !important;
-  color: $f_color !important;
-  border:1px !important;
+.o_searchview .o_searchview_facet .o_searchview_facet_label {
+  background-color: transparent;
+  color: $f_color;
+  border:1px;
 }
 // .o_menu_sections, .o_menu_systray, .o_web_client > header{
 // background: $bg_darken !important;
@@ -43,8 +43,8 @@ a:hover {
 //   border-bottom: 0px solid #5f5e97 !important;
 //   -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03) !important;
 //   box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03) !important;
-  background-color: $bg_darken !important;
-  color: #fff !important;
+  background-color: $bg_darken;
+  color: #fff;
   & > .o_menu_toggle {
     width: var(--header-height);
   }
