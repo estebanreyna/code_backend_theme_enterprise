@@ -27,12 +27,12 @@ color: #ffffff !important;
 }
 
 .o_main_navbar > a, .o_main_navbar > button {
-  height: $navbar-height;
-  line-height: $navbar-height;
+  height: var(--header-height);
+  line-height: var(--header-height);
 }
 
 .o_main_navbar > .o_menu_brand {
-  line-height: 62px;
+  line-height: var(--header-height);
   font-weight: 800;
 }
 
@@ -373,7 +373,7 @@ ul.o_menu_sections{
 
 .o_burger_menu .o_burger_menu_topbar{
     background-color: $bg_darken;
-    flex: 0 0 62px;
+    flex: 0 0 var(--header-height);
     .o_burger_menu_close {
       display: inline-flex;
       align-items: center;
