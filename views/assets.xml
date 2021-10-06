@@ -23,14 +23,10 @@
             </xpath>
         </template>
 
-        <template id="webclient_bootstrap_code" inherit_id="web_enterprise.webclient_bootstrap" priority="14">
+        <template id="webclient_bootstrap_code" inherit_id="web_enterprise.webclient_bootstrap" priority="17">
 
-            <xpath expr="//meta[@name='theme-color']" position="before">
-                <t t-set="head_web_code">
+            <xpath expr="//meta[@name='theme-color']" position="replace">
                     <meta name="theme-color" content="#24292e"/>
-
-
-                </t>
             </xpath>
         </template>
     
