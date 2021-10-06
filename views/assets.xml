@@ -23,9 +23,9 @@
             </xpath>
         </template>
 
-        <template id="webclient_bootstrap_code" inherit_id="web_enterprise.webclient_bootstrap">
+        <template id="webclient_bootstrap_code" inherit_id="web_enterprise.webclient_bootstrap" priority="14">
 
-            <xpath expr="//t[@t-set='head_web_enterprise']" position="inside">
+            <xpath expr="//meta[@name='theme-color']" position="before">
                 <t t-set="head_web_code">
                     <meta name="theme-color" content="#24292e"/>
 
