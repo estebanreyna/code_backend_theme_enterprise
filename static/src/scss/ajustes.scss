@@ -217,6 +217,19 @@ button.btn.btn-link.o_ChatterTopbar_button.o_ChatterTopbar_buttonLogNote.o-borde
             padding-left: 14px;
             padding-top: 5px;
             padding-bottom: 5px;
+            border-bottom: 1px solid #ced4da;
+            border-radius: 0;
+        }
+    }
+}
+@media (max-width: 767.98px) {
+    .o_control_panel {
+        padding-right: 0;
+        padding-top: 8px;
+        padding-bottom: 4px;
+        
+        & > div {
+            margin: 10px 0px;
         }
     }
 }
