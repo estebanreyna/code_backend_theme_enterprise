@@ -27,6 +27,7 @@
 
             <xpath expr="//t[@t-set='head_web_enterprise']" position="after">
                 <t t-set="head_web_code">
+                    <meta name="theme-color" content="#24292e"/>
 
 
                 </t>
