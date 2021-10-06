@@ -424,3 +424,14 @@ select.o_input.o_field_widget {
         border-bottom-left-radius: 6px;
     }
 }
+
+
+@media (max-width: 767.98px) {
+    .o_main_navbar {
+        height: $navbar-height-sm;
+        
+        & > div {
+            margin: 10px 0px;
+        }
+    }
+}
