@@ -144,9 +144,9 @@ a:hover {
 .o_widget_Discuss {
     background: #f8f8fb;
 }
-.o_form_statusbar .o_statusbar_buttons .btn {
-    margin-right: 15px !important;
-}
+// .o_form_statusbar .o_statusbar_buttons .btn {
+//     margin-right: 15px !important;
+// }
 .o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button:not(:first-child):before, .o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button:not(:first-child):after {
     border-top: 21px solid transparent !important;
     border-bottom: 17px solid transparent !important;
@@ -160,8 +160,8 @@ a:hover {
 // Button
 .btn {
     display: inline-block;
-    font-weight: 400 !important;
-    line-height: 1 !important;
+    font-weight: 400;
+    line-height: 1;
     color: #495057;
     text-align: center;
     vertical-align: middle;
@@ -557,7 +557,7 @@ th.o_list_record_selector {
     padding: 10px;
 }
 .o_form_view .o_form_sheet_bg > .o_form_sheet {
-    min-width: 650px;
+    /*min-width: 650px;*/
     max-width: initial;
     min-height: 330px;
     border: 1px solid #c8c8d3;
@@ -1747,12 +1747,12 @@ div.o_input > .o_input {
         justify-content: flex-end;
         margin-top: 5px;
     }
-    .o_form_view .o_form_statusbar > .o_statusbar_buttons > .btn {
-        margin: 1px 0px 4px 0;
-    }
-    .o_form_statusbar .o_statusbar_buttons .btn {
-        margin-right: 5px !important;
-    }
+    // .o_form_view .o_form_statusbar > .o_statusbar_buttons > .btn {
+    //     margin: 1px 0px 4px 0;
+    // }
+    // .o_form_statusbar .o_statusbar_buttons .btn {
+    //     margin-right: 5px !important;
+    // }
     .o_control_panel .o_cp_bottom_left > .o_cp_action_menus .o_dropdown_toggler_btn {
         margin-right: 3px;
     }
