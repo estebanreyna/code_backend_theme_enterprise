@@ -313,8 +313,13 @@ select.o_input.o_field_widget {
 
 //dropdown menu items
 
-.o_dropdown_menu .o_menu_item {
-    padding: 8px 12px;
+.o_dropdown_menu {
+    min-width: 150px;
+    max-height: calc(100vh - 170px);
+    overflow: auto;
+    .o_menu_item {
+        padding: 8px 12px;
+    }
 }
 .o_cp_action_menus .o_dropdown_menu .o_menu_item {
     padding: inherit;
@@ -406,4 +411,16 @@ select.o_input.o_field_widget {
 .o_control_panel .breadcrumb > li.o_back_button.btn {
     padding: 4px 12px;
     height: auto;
+}
+
+//botones
+
+.btn-group {
+    & > .btn {
+        border-radius: 6px;
+    }
+    & > .btn-group:not(:first-child) > .btn {
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
 }
