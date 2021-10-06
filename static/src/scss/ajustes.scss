@@ -92,11 +92,14 @@ a.btn.btn-primary.dropdown-toggle {
 }
 
 //views dropdown menu 
-.dropdown-menu-right {
-    right: 43px;
-    top: -9px;
-    left: auto;
-    padding: 4px;
+// .dropdown-menu-right {
+//     right: 43px;
+//     top: -9px;
+//     left: auto;
+//     padding: 4px;
+// }
+.o_main_navbar .dropdown-menu.show {
+    max-height: calc(100vh - 62px);
 }
 /*@media (max-width: 767.98px) {
     .o_control_panel .o_cp_bottom_right > .o_cp_switch_buttons > .btn:first-child, .o_control_panel .o_account_reports_page .o_cp_bottom_right > .o_cp_switch_buttons > .oe_link_reports:first-child, .o_account_reports_page .o_control_panel .o_cp_bottom_right > .o_cp_switch_buttons > .oe_link_reports:first-child, .o_control_panel .o_radio_hide_bullet .o_cp_bottom_right > .o_cp_switch_buttons > label:first-child, .o_radio_hide_bullet .o_control_panel .o_cp_bottom_right > .o_cp_switch_buttons > label:first-child {
@@ -140,10 +143,12 @@ a.btn.btn-primary.dropdown-toggle {
 // }
 
 //chatter width
-.o_ChatterContainer {
-    padding: 10px 10%;
-}
 
+@media (min-width: 480px) and (max-width: 1533.98px) {
+    .o_ChatterContainer {
+        padding: 10px 10%;
+    }
+}
 // chatter toolbar buttons
 @media (max-width: 767.98px) {
     .o_ChatterTopbar.o_Chatter_topbar .o_ChatterTopbar_actions {
@@ -293,7 +298,7 @@ select.o_input.o_field_widget {
 //dropdown menu items
 
 .o_dropdown_menu .o_menu_item {
-    padding: 12px;
+    padding: 8px 12px;
 }
 .o_cp_action_menus .o_dropdown_menu .o_menu_item {
     padding: inherit;
