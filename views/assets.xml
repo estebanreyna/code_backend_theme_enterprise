@@ -25,12 +25,12 @@
 
         <template id="webclient_bootstrap_code" inherit_id="web_enterprise.webclient_bootstrap">
 
-            <xpath expr="//t[@t-set='head_web_enterprise']" position="after">
-                <t t-set="head_web_code">
+            <xpath expr="//meta[@name='theme-color']" position="after">
+                
                     <meta name="theme-color" content="#24292e"/>
 
 
-                </t>
+                
                 <t t-set="head" t-value="head_web_code + (head or '')"/>
             </xpath>
         </template>
