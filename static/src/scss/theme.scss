@@ -46,7 +46,7 @@ a:hover {
   background-color: $bg_darken !important;
   color: #fff !important;
   & > .o_menu_toggle {
-    width: 62px;
+    width: var(--header-height);
   }
 }
 
