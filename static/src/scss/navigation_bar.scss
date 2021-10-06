@@ -45,15 +45,15 @@ color: #ffffff !important;
 }
 
 .o_main_navbar > a:hover {
-  background-color: lighten($bg_darken, 10%) !important;
+  background-color: lighten($bg_base, 10%);
 }
 
 .o_main_navbar > .o_menu_sections > li > a:hover, .o_main_navbar > .o_menu_systray > li > a:hover, .o_main_navbar > .o_menu_sections > li.show > a, .o_main_navbar > .o_menu_systray > li.show > a {
-  background-color: lighten($bg_darken, 10%) !important;
+  background-color: lighten($bg_base, 10%);
 }
 
 .o_main_navbar > .o_menu_apps > li > a:hover, .o_main_navbar > .o_menu_apps > li > a:active {
-  background-color: lighten($bg_darken, 10%) !important;
+  background-color: lighten($bg_base, 10%);
 }
 
 .o_main_navbar > .o_menu_apps > .dropdown.show > .dropdown-menu.show {
@@ -353,6 +353,7 @@ background-color: #3d9bbb;
 .o_MessagingMenu .o_MessagingMenu_counter {
     background-color : $primary_accent !important;
     border: none;
+    color: #ffffff;
 }
 .o_mail_systray_item .o_notification_counter {
   background: #ff6464;

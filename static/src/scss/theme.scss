@@ -43,8 +43,9 @@ a:hover {
 //   border-bottom: 0px solid #5f5e97 !important;
 //   -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03) !important;
 //   box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03) !important;
-  background-color: $bg_darken;
-  color: #fff;
+  background-color: $bg_base;
+  color: $text_dark_gray;
+  border-bottom: 1px solid #f0f2f5;
   & > .o_menu_toggle {
     width: var(--header-height);
   }
@@ -73,7 +74,7 @@ a:hover {
 .o_main_navbar > ul > li > a, .o_main_navbar > ul > li > label {
     height: var(--header-height);
     padding: 0 8px;
-    color: $f_color !important;
+    color: $text_dark_gray;
     line-height: var(--header-height);
 }
 .o_main_navbar > .o_menu_sections > li > a:hover, .o_main_navbar > .o_menu_systray > li > a:hover, .o_main_navbar > .o_menu_sections > li.show > a, .o_main_navbar > .o_menu_systray > li.show > a {
