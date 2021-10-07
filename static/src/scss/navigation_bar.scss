@@ -351,13 +351,14 @@ background-color: #3d9bbb;
 // meeee
 
 .o_MessagingMenu .o_MessagingMenu_counter {
-    background-color : $primary_accent !important;
+    background-color : $primary_accent;
     border: none;
     color: #ffffff;
 }
 .o_mail_systray_item .o_notification_counter {
-  background: #ff6464;
+  background: $primary_accent;
   border: none;
+  color: #ffffff;
 }
 
 ul.o_menu_sections{

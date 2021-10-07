@@ -147,7 +147,10 @@ a:hover {
 .o_control_panel {
     border-bottom: 1px solid #ced4da;
     margin: 0px;
-    background-color: var(--bg-header);
+    background-color: $bg_darken;
+    @media screen and (max-width: 767.98px) {
+        background-color: var(--bg-header);
+    }
     /*-webkit-box-shadow: 0 0.6rem 1.5rem rgba(18,38,63,.07);
     box-shadow: 0 0.6rem 1.5rem rgba(18,38,63, .07);*/
     border-radius: 0px;
@@ -1830,8 +1833,9 @@ div.o_input > .o_input {
     }
     button.o_enable_searchview.btn.btn-link.fa.fa-search {
         float: right;
-        padding: 0 !important;
-        padding: 9px 11px !important;
+        padding: 0;
+        height: 38px;
+        width: 40px;
         /*margin-top: -9px;*/
     }
     .o_control_panel .o_cp_searchview.o_searchview_quick > .o_searchview {
