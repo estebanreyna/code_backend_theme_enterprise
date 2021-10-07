@@ -83,7 +83,7 @@ a:hover {
     }
 }
 .o_main_navbar > .o_menu_sections > li > a:hover, .o_main_navbar > .o_menu_systray > li > a:hover, .o_main_navbar > .o_menu_sections > li.show > a, .o_main_navbar > .o_menu_systray > li.show > a {
-    background-color: $bg_darken !important;
+    background-color: var(--bg-header);
 }
 
 .topbar_icon .fa {

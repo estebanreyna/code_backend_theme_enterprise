@@ -45,15 +45,15 @@ color: #ffffff !important;
 }
 
 .o_main_navbar > a:hover {
-  background-color: lighten(var(--bg-header), 0.1);
+  background-color: var(--bg-header);
 }
 
 .o_main_navbar > .o_menu_sections > li > a:hover, .o_main_navbar > .o_menu_systray > li > a:hover, .o_main_navbar > .o_menu_sections > li.show > a, .o_main_navbar > .o_menu_systray > li.show > a {
-  background-color: lighten(var(--bg-header), 0.1);
+  background-color: var(--bg-header);
 }
 
 .o_main_navbar > .o_menu_apps > li > a:hover, .o_main_navbar > .o_menu_apps > li > a:active {
-  background-color: lighten(var(--bg-header), 0.1);
+  background-color: var(--bg-header);
 }
 
 .o_main_navbar > .o_menu_apps > .dropdown.show > .dropdown-menu.show {
