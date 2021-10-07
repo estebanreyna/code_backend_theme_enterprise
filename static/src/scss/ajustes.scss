@@ -459,3 +459,8 @@ select.o_input.o_field_widget {
         }   
     }
 }
+
+// filtros movil
+.o_searchview .o_searchview_input_container .o_searchview_facet .o_facet_values {
+    max-width: calc(100% - 15px);
+}
