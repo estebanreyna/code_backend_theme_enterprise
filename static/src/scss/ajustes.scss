@@ -230,7 +230,7 @@ button.btn.btn-link.o_ChatterTopbar_button.o_ChatterTopbar_buttonLogNote.o-borde
         
         & > div {
             margin: 10px 0px;
-            :first-child {
+            &:first-child {
                 margin-top: 5px;
             }
         }
