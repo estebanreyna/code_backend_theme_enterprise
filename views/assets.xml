@@ -29,7 +29,7 @@
                     <t t-set="head_web_enterprise">
                         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
                         <!-- Chrome, Firefox OS and Opera -->
-                        <meta name="theme-color" content="#f8f8f8"/>
+                        <meta name="theme-color" content="#f5f5f5"/>
                         <link rel="icon" sizes="192x192" href="/web_enterprise/static/src/img/mobile-icons/android-192x192.png"/>
         
                         <!-- iOS Safari -->
@@ -38,8 +38,8 @@
                         <link rel="apple-touch-icon" href="/web_enterprise/static/src/img/mobile-icons/apple-152x152.png"/>
         
                         <!-- Windows Phone -->
-                        <meta name="msapplication-navbutton-color" content="#f8f8f8"/>
-                        <meta name="msapplication-TileColor" content="#f8f8f8"/>
+                        <meta name="msapplication-navbutton-color" content="#f5f5f5"/>
+                        <meta name="msapplication-TileColor" content="#f5f5f5"/>
                         <meta name="msapplication-TileImage" content="/web_enterprise/static/src/img/mobile-icons/windows-144x144.png"/>
                     </t>
             </xpath>

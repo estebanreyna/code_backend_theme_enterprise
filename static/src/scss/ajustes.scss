@@ -462,6 +462,7 @@ select.o_input.o_field_widget {
 
 // searchview
 .o_web_client .o_searchview {
+    padding-top: unset;
     input.o_searchview_input {
         height: 35px;
     }
@@ -477,18 +478,18 @@ select.o_input.o_field_widget {
     .o_searchview_input_container {
         align-items: center;
         .o_searchview_facet {
-            display: -webkit-box;
-            display: -webkit-flex;
             display: flex;
-            -webkit-box-flex: 0;
-            -webkit-flex: 0 0 auto;
             flex: 0 0 auto;
             margin: 1px 3px 0 0;
             max-width: 100%;
             position: relative;
             min-height: 24px;
             justify-content: flex-start;
-            align-items: center;
+            align-items: baseline;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            flex-wrap: nowrap;
+            padding-top: 2px;
             .o_facet_values {
                 max-width: calc(100% - 15px);
             }

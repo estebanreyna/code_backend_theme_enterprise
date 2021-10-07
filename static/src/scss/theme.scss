@@ -45,9 +45,9 @@ a:hover {
 //   box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03) !important;
   background-color: var(--bg-header);
   color: $color_header;
-  border-bottom: 1px solid #f0f2f5;
+  border-bottom: none;
   @media screen and (max-width: 767.98px) {
-    border-bottom: none;
+    border-bottom: 1px solid #f0f2f5;
     }
   & > .o_menu_toggle {
     width: var(--header-height);
