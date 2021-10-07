@@ -25,8 +25,23 @@
 
         <template id="webclient_bootstrap_code" inherit_id="web_enterprise.webclient_bootstrap" priority="17">
 
-            <xpath expr="//meta[@name='theme-color']" position="replace">
-                    <meta name="theme-color" content="#24292e"/>
+            <xpath expr="//t[@t-set='head_web_enterprise']" position="replace">
+                    <t t-set="head_web_enterprise">
+                        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+                        <!-- Chrome, Firefox OS and Opera -->
+                        <meta name="theme-color" content="#f9fafb"/>
+                        <link rel="icon" sizes="192x192" href="/web_enterprise/static/src/img/mobile-icons/android-192x192.png"/>
+        
+                        <!-- iOS Safari -->
+                        <meta name="apple-mobile-web-app-capable" content="yes"/>
+                        <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+                        <link rel="apple-touch-icon" href="/web_enterprise/static/src/img/mobile-icons/apple-152x152.png"/>
+        
+                        <!-- Windows Phone -->
+                        <meta name="msapplication-navbutton-color" content="#f9fafb"/>
+                        <meta name="msapplication-TileColor" content="#f9fafb"/>
+                        <meta name="msapplication-TileImage" content="/web_enterprise/static/src/img/mobile-icons/windows-144x144.png"/>
+                    </t>
             </xpath>
         </template>
     

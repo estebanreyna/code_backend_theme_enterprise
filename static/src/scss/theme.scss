@@ -69,13 +69,18 @@ a:hover {
 }
 
 .o-no-caret > i, button[aria-pressed="true"] {
-    color: $f_color !important;
+    color: $f_color;
 }
-.o_main_navbar > ul > li > a, .o_main_navbar > ul > li > label {
-    height: var(--header-height);
-    padding: 0 8px;
-    color: $text_dark_gray;
-    line-height: var(--header-height);
+.o_main_navbar > ul > li {
+    & > a, & > label {
+        height: var(--header-height);
+        padding: 0 8px;
+        color: $text_dark_gray;
+        line-height: var(--header-height);
+        & > i {
+            color: $text_dark_gray;
+        }
+    }
 }
 .o_main_navbar > .o_menu_sections > li > a:hover, .o_main_navbar > .o_menu_systray > li > a:hover, .o_main_navbar > .o_menu_sections > li.show > a, .o_main_navbar > .o_menu_systray > li.show > a {
     background-color: $bg_darken !important;
