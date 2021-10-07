@@ -106,7 +106,7 @@ a:hover {
 
 .o_searchview {
     border: 1px solid #ececee;
-    height: 38px;
+    min-height: 38px;
     padding-left: 12px;
     padding-right: 20px;
     -webkit-box-shadow: none;
@@ -1488,9 +1488,9 @@ div.dropdown-menu.bootstrap-datetimepicker-widget{
     margin: 1px 3px 0 0;
     max-width: 100%;
     position: relative;
-    height: 24px !important;
-    justify-content: center !important;
-    align-items: center !important;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
 }
 
 .o_searchview_input {

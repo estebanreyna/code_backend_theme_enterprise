@@ -460,7 +460,41 @@ select.o_input.o_field_widget {
     }
 }
 
-// filtros movil
-.o_searchview .o_searchview_input_container .o_searchview_facet .o_facet_values {
-    max-width: calc(100% - 15px);
+// searchview
+.o_web_client .o_searchview {
+    input.o_searchview_input {
+        height: 35px;
+    }
+    .o_mobile_search_content{
+        .o_mobile_search_filter {
+            .btn-group.o_dropdown.o_filter_menu.show > ul {
+                min-width: 150px;
+                max-height: max-content;
+                overflow: hidden;
+            }
+        }
+    }
+    .o_searchview_input_container {
+        align-items: center;
+        .o_searchview_facet {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-flex: 0;
+            -webkit-flex: 0 0 auto;
+            flex: 0 0 auto;
+            margin: 1px 3px 0 0;
+            max-width: 100%;
+            position: relative;
+            min-height: 24px;
+            justify-content: flex-start;
+            align-items: center;
+            .o_facet_values {
+                max-width: calc(100% - 15px);
+            }
+        }
+    }
+    .o_mobile_search_footer {
+        height: 65px;
+    }
 }
