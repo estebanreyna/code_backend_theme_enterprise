@@ -43,8 +43,8 @@ a:hover {
 //   border-bottom: 0px solid #5f5e97 !important;
 //   -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03) !important;
 //   box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03) !important;
-  background-color: $bg_base;
-  color: $text_dark_gray;
+  background-color: $bg_header;
+  color: $color_header;
   border-bottom: 1px solid #f0f2f5;
   & > .o_menu_toggle {
     width: var(--header-height);
@@ -75,10 +75,10 @@ a:hover {
     & > a, & > label {
         height: var(--header-height);
         padding: 0 8px;
-        color: $text_dark_gray;
+        color: $color_header;
         line-height: var(--header-height);
         & > i {
-            color: $text_dark_gray;
+            color: $color_header;
         }
     }
 }

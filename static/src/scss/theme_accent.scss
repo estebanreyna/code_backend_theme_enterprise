@@ -1,7 +1,11 @@
 :root {
     --header-height : 62px;
+    --bg-header : #24292e;
+    --color-header : #fff;
     @media screen and (max-width: 767.98px) {
       --header-height : 46px;
+      --bg-header : #f9fafb;
+      --color-header : #24292e;
     }
 }
 
@@ -17,8 +21,8 @@ $bg_darken: #24292e !default;
 $primary_hover: #1235da !default;
 $secondary_hover: #f2f2f2;
 $gray_clean: #eff2f7;
-$bg_base: #f9fafb;
-$text_dark_gray: #24292e;
+$bg_header: var(--bg-header);
+$color_header: var(--color-header);
 
 $navbar-height: 62px;
 $navbar-height-sm: 46px;
