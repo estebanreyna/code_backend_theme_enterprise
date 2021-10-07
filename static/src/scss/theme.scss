@@ -46,6 +46,9 @@ a:hover {
   background-color: var(--bg-header);
   color: $color_header;
   border-bottom: 1px solid #f0f2f5;
+  @media screen and (max-width: 767.98px) {
+    border-bottom: none;
+    }
   & > .o_menu_toggle {
     width: var(--header-height);
   }
@@ -1786,9 +1789,9 @@ div.o_input > .o_input {
     .o_field_widget.o_field_image .o_form_image_controls > .fa.o_select_file_button {
         background: #74788d;
     }
-    .o_menu_sections, .o_web_client > header {
-        background: $bg_white !important;
-    }
+    // .o_menu_sections, .o_web_client > header {
+    //     background: $bg_white !important;
+    // }
 }
 @media (max-width:390px){
 .o_main_navbar .o_switch_company_menu > a .oe_topbar_name {

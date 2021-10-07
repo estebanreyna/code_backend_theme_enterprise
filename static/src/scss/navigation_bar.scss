@@ -361,7 +361,7 @@ background-color: #3d9bbb;
 }
 
 ul.o_menu_sections{
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 // .o_user_menu_mobile{
@@ -377,7 +377,7 @@ ul.o_menu_sections{
 }
 
 .o_burger_menu .o_burger_menu_content.o_burger_menu_dark {
-    background-color: white;
+    background-color: $bg_darken;
 }
 
 .o_burger_menu .o_burger_menu_topbar{

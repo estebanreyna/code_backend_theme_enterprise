@@ -424,3 +424,38 @@ select.o_input.o_field_widget {
         border-bottom-left-radius: 6px;
     }
 }
+
+// apps home menu
+.o_web_client.o_home_menu_background > header > .o_main_navbar {
+    & > a, & > button, & > ul > li > a, & > ul > li > a > i {
+    color: #fff;
+}
+}
+
+//burger main menu
+.o_burger_menu .o_burger_menu_content {
+    background: #f8f8f8;
+    &.o_burger_menu_dark{
+        background-color: #2f353a;
+    }
+    .o_burger_menu_app {
+        ul.o_menu_sections {
+            margin: 20px;
+            margin-left: 0;
+        }
+        padding-left: 20px;
+        ul {
+            > li.show > ul {
+                padding: 20px;
+                padding-right: 0;
+            }
+            .o_menu_entry_lvl_1{
+                color: #d4d5d9;
+                padding: 15px 15px;
+            }
+            .o_menu_entry_lvl_2 {
+                color: #fff;
+            }
+        }   
+    }
+}
