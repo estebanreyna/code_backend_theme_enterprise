@@ -518,7 +518,9 @@ select.o_input.o_field_widget {
     &.o-fullscreen.o-mobile {
         background: violet;
         .o_ChatWindow_thread {
+            background: red;
             .o_composer {
+                background: blue;
                 .o_Composer_coreMain {
                     align-items: flex-end;
                     .o_Composer_textInput {
