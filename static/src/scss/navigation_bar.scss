@@ -61,7 +61,7 @@ color: #ffffff !important;
   height: 93vh !important;
 }
 .o_main_navbar > .o_menu_apps > .dropdown.show > .dropdown-menu.show > a {
-  //border-bottom: 1px solid lighten($primary_accent, 30%);
+  //border-bottom: 1px solid lighten(var(--primary-accent), 30%);
 }
 
 .o_mail_discuss_sidebar {
