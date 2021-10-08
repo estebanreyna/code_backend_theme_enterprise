@@ -516,11 +516,9 @@ select.o_input.o_field_widget {
 
 .o_ChatWindow {
     &.o-fullscreen.o-mobile {
-        background: violet;
         .o_ChatWindow_thread {
-            background: red;
             .o_Composer {
-                background: blue;
+                border-radius: 0;
                 .o_Composer_coreMain {
                     align-items: flex-end;
                     .o_Composer_textInput {
@@ -534,7 +532,6 @@ select.o_input.o_field_widget {
                         margin: 8px;
                         margin-top: 0;
                         overflow: auto;
-                        min-width: calc(100% - 64px);
                         .o_ComposerTextInput_textareaStyle {
                             padding: 10px;
                             resize: none;
@@ -551,10 +548,11 @@ select.o_input.o_field_widget {
                         max-height: 50px;
                         display: flex;
                         align-items: center;
-                        margin-right: 8px;
-                        margin-bottom: 8px;
-                        margin-left: -83px;
+                        margin-right: 12px;
+                        margin-bottom: 12px;
+                        margin-left: -104px;
                         align-self: inherit;
+                        z-index: 999;
                         .o_Composer_toolButtons {
                             border-top: none;
                             border-bottom: none;
