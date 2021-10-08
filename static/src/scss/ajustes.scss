@@ -513,15 +513,11 @@ select.o_input.o_field_widget {
 }
 
 //chat window
-.o_MessageList {
-    background-color: #582c2c;
-}
+
 .o_ChatWindow {
     &.o-fullscreen.o-mobile {
+        background: violet;
         .o_ChatWindow_thread {
-            .o_MessageList {
-                background-color: #582c2c;
-            }
             .o_composer {
                 .o_Composer_coreMain {
                     align-items: flex-end;
