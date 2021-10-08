@@ -47,7 +47,9 @@ a:hover {
     color: $color_header;
     border-bottom: none;
     @media screen and (max-width: 767.98px) {
-        border-bottom: 1px solid #f0f2f5;
+        /* border-bottom: 1px solid #f0f2f5; */
+        box-shadow: 0 0px 17px -8px #1e1e1e4d;
+        z-index: 100;
     }
     & > .o_menu_toggle {
         width: var(--header-height);
