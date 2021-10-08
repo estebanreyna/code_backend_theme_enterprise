@@ -252,7 +252,7 @@ select.o_input.o_field_widget {
         button.fa.fa-external-link.btn.btn-secondary.o_external_button {
             padding: 2px !important;
             color: #ffffff !important;
-            background: $primary_accent !important;
+            background: var(--primary-accent) !important;
             width: 35px;
             height: 40px !important;
             border-radius: 0 .25rem .25rem 0 !important;
@@ -332,7 +332,7 @@ select.o_input.o_field_widget {
 
 .modal.o_technical_modal.o_modal_full .modal-dialog .modal-content .modal-header {
     @media screen and (max-width: 575.98px) {
-        background: $primary_accent;
+        background: var(--primary-accent);
     }
 }
 .modal.o_modal_full .modal-content{

@@ -11,10 +11,10 @@ body {
     background-color: #f8f8fb;
 }
 a {
-    color: $primary_accent;
+    color: var(--primary-accent);
 }
 a:hover {
-    color: $primary_hover;
+    color: var(--primary-hover);
 }
 //111 a.btn {
 //     height: auto !important;
@@ -36,22 +36,26 @@ a:hover {
     font-size: 16px !important;
 }
 .o_main_navbar {
-  height: var(--header-height);
+    height: var(--header-height);
 //   display: flex;
 //   justify-content: space-between;
 //   align-items: center;
 //   border-bottom: 0px solid #5f5e97 !important;
 //   -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03) !important;
 //   box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03) !important;
-  background-color: var(--bg-header);
-  color: $color_header;
-  border-bottom: none;
-  @media screen and (max-width: 767.98px) {
-    border-bottom: 1px solid #f0f2f5;
+    background-color: var(--bg-header);
+    color: $color_header;
+    border-bottom: none;
+    @media screen and (max-width: 767.98px) {
+        border-bottom: 1px solid #f0f2f5;
     }
-  & > .o_menu_toggle {
-    width: var(--header-height);
-  }
+    & > .o_menu_toggle {
+        width: var(--header-height);
+    }
+    .o_user_menu {
+        background-image: linear-gradient(25deg, #13dfa6, #00a5cb);
+        padding-left: 0.4em;
+    }
 }
 
 .top_heading {
@@ -124,7 +128,7 @@ a:hover {
 }
 .o_searchview .o_searchview_facet {
     border: none;
-    background: $primary_hover;
+    background: var(--primary-hover);
     border-radius: 6px;
     padding: 0 4px;
     font-size: 13px;
@@ -147,7 +151,7 @@ a:hover {
 .o_control_panel {
     border-bottom: 1px solid #ced4da;
     margin: 0px;
-    background-color: $bg_darken;
+    background-color: var(--bg-base);
     @media screen and (max-width: 767.98px) {
         background-color: var(--bg-header);
     }
@@ -170,7 +174,7 @@ a:hover {
 }
 .o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button:not(:first-child):before {
     right: -11px;
-    border-left-color: $primary_accent;
+    border-left-color: var(--primary-accent);
 }
 //Top Bar End
 
@@ -200,23 +204,23 @@ a:hover {
 }
 .btn-primary {
     color: #fff !important;
-    background-color: $primary_accent !important;
-    border-color: $primary_accent !important;
+    background-color: var(--primary-accent) !important;
+    border-color: var(--primary-accent) !important;
 }
 .btn-primary:hover {
     color: #fff !important;
-    background-color: $primary_hover !important;
-    border-color: $primary_hover !important;
+    background-color: var(--primary-hover) !important;
+    border-color: var(--primary-hover) !important;
 }
 .btn-primary:active {
     color: #fff !important;
-    background-color: $primary_hover !important;
-    border-color: $primary_hover !important;
+    background-color: var(--primary-hover) !important;
+    border-color: var(--primary-hover) !important;
 }
 .btn-check:focus+.btn-primary, .btn-primary:focus {
     color: #fff;
-    background-color: $primary_hover !important;
-    border-color: $primary_hover !important;
+    background-color: var(--primary-hover) !important;
+    border-color: var(--primary-hover) !important;
     -webkit-box-shadow: 0 0 0 .15rem rgba(111,132,234,.5) !important;
     box-shadow: 0 0 0 .15rem rgba(111,132,234,.5) !important;
 }
@@ -225,24 +229,24 @@ a:hover {
 }
 .btn-secondary {
     color: #4a525a !important;
-    background-color: $secondary_accent!important;
-    border-color: $secondary_accent !important;
+    background-color: var(--secondary-accent)!important;
+    border-color: var(--secondary-accent) !important;
     border-radius: 4px;
 }
 .btn-secondary:hover {
     color: #4a525a !important;
-    background-color: $secondary_hover !important;
+    background-color: var(--secondary-hover) !important;
     border-color: #4a525a !important;
 }
 .btn-secondary:active {
     color: #4a525a;
-    background-color: $secondary_hover !important;
-    border-color: $secondary_hover!important;
+    background-color: var(--secondary-hover) !important;
+    border-color: var(--secondary-hover)!important;
 }
 .btn-check:focus+.btn-secondary, .btn-secondary:focus {
     color: #4a525a;
-    background-color: $secondary_hover!important;
-    border-color: $secondary_hover !important;
+    background-color: var(--secondary-hover)!important;
+    border-color: var(--secondary-hover) !important;
     -webkit-box-shadow: 0 0 0 .15rem rgba(137,140,158,.5) !important;
     box-shadow: 0 0 0 .15rem rgba(137,140,158,.5) !important;
 }
@@ -332,8 +336,8 @@ button[name="action_uninstall"]:focus {
     color: #fff !important;
 }
 .o_cp_bottom_right .btn-secondary {
-    background: #f9fafb  !important;
-    border-color: #f9fafb  !important;
+    background: transparent  !important;
+    border-color: transparent  !important;
     margin-right: 5px !important;
     padding : 6px 7px !important;
 }
@@ -500,7 +504,7 @@ th.o_list_record_selector {
 }
 
 .custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before {
-    background-color: $primary_accent;
+    background-color: var(--primary-accent);
 }
 
 .custom-checkbox input:checked + label::after {
@@ -544,7 +548,7 @@ th.o_list_record_selector {
     vertical-align: middle;
     border: 1px solid rgba(85,110,230,.25)!important;
     background-color: rgba(85,110,230,.25)!important;
-    color: $primary_accent !important;
+    color: var(--primary-accent) !important;
     border-radius: 5px;
 }
 .o_radio_input +  .custom-control-label::before {
@@ -560,7 +564,7 @@ th.o_list_record_selector {
     border: #adb5bd solid 1px !important;
 }
 .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
-    background: $primary_accent !important;
+    background: var(--primary-accent) !important;
     border-radius: 30px;
 }
 // Checkbox End
@@ -653,10 +657,10 @@ th.o_list_record_selector {
     color: #34c38f;
 }
 .o_Message_prettyBody table th {
-    color: $primary_accent !important;
+    color: var(--primary-accent) !important;
 }
 .o_Message_prettyBody table thead tr td {
-    background-color: $primary_hover !important;
+    background-color: var(--primary-hover) !important;
 }
 // Discuss End
 
@@ -675,7 +679,7 @@ th.o_list_record_selector {
     border-radius: 5px;
 }
 .o_Discuss .o_Message .o_Message_prettyBody p a {
-    background: $primary_accent !important;
+    background: var(--primary-accent) !important;
 }
 .o_Message.o-not-discussion {
     background-color: $gray_clean;
@@ -723,7 +727,7 @@ i.o_PartnerImStatusIcon_outerBackground.fa.fa-circle.fa-stack-1x {
     border: none;
     border-bottom: solid;
     font-weight: bold;
-    background: $primary_accent !important;
+    background: var(--primary-accent) !important;
     color: #ffffff !important;
     border-radius: 5px 5px 0px 0px;
 }
@@ -764,7 +768,7 @@ ul.sidebar_menu .nav-link:hover,ul.sidebar_menu .nav-link:focus {
 }
 .btn-link {
     font-weight: 400;
-    color: $primary_accent !important;
+    color: var(--primary-accent) !important;
     text-decoration: none;
 }
 .o_activity_view .o_record_selector {
@@ -1020,21 +1024,21 @@ select {
     box-shadow: none !important;
 }
 .o_inner_box {
-    background-color: $primary_accent !important;
+    background-color: var(--primary-accent) !important;
     border-radius: 5px;
 }
 .o_inner_box:hover {
-    background-color: $primary_hover !important;
+    background-color: var(--primary-hover) !important;
 }
 //Website app ends
 
 //Purchase app starts
 td.o_main {
-    background-color: $primary_accent !important;
+    background-color: var(--primary-accent) !important;
     border-radius: 5px;
 }
 td.o_main:hover {
-    background-color: $primary_hover !important;
+    background-color: var(--primary-hover) !important;
 }
 .o_purchase_dashboard .table > thead > tr > td,
 .o_purchase_dashboard .table tbody > tr > td {
@@ -1145,12 +1149,12 @@ select, input {
 }
 .o_hr_attendance_sign_in_out_icon.fa-sign-in {
     color: #fff !important;
-    background-color: $primary_accent !important;
-    border-color: $primary_accent !important;
+    background-color: var(--primary-accent) !important;
+    border-color: var(--primary-accent) !important;
 }
 .o_hr_attendance_sign_in_out_icon.fa-sign-in:hover {
     color: #fff !important;
-    background-color: $primary_hover !important;
+    background-color: var(--primary-hover) !important;
     border-color: #4458b8 !important;
 }
 .o_hr_attendance_sign_in_out_icon.fa-sign-in:active {
@@ -1166,7 +1170,7 @@ select, input {
     box-shadow: 0 0 0 .15rem rgba(111,132,234,.5) !important;
 }
 .o_hr_attendance_kiosk_mode h3.mt0.mb0.text-muted {
-    color: $primary_accent !important;
+    color: var(--primary-accent) !important;
 }
 .o_hr_attendance_button_employees div.mb16.mt16 {
     margin-top: 4px !important;
@@ -1193,10 +1197,10 @@ select, input {
 
 //sale status icon starts
 .bg-primary {
-    background-color: $primary_accent !important;
+    background-color: var(--primary-accent) !important;
 }
 .bg-secondary {
-    background-color: $secondary_accent !important;
+    background-color: var(--secondary-accent) !important;
 }
 .bg-success-light {
     color: #1f7556 !important;
@@ -1242,7 +1246,7 @@ select, input {
 
 //badges starts
 .badge-primary {
-    background-color: $primary_accent !important;
+    background-color: var(--primary-accent) !important;
 }
 .badge-secondary {
   background-color: #74788d;
@@ -1354,7 +1358,7 @@ div.o_boolean_toggle.custom-control.custom-checkbox > label.custom-control-label
 .note-popover .popover .popover-body, .panel-heading.note-toolbar {
     padding: 5px !important;
     border-bottom: none !important;
-    background: $secondary_accent !important;
+    background: var(--secondary-accent) !important;
     border-radius: 5px 5px 0 0  ;
 }
 .note-editor .note-statusbar {
@@ -1396,7 +1400,7 @@ div.o_boolean_toggle.custom-control.custom-checkbox > label.custom-control-label
 
 // menu+ color starts
 .o_main_navbar > ul > li.o_extra_menu_items.show > ul > li > a {
-    background-color: $primary_accent;
+    background-color: var(--primary-accent);
     text-transform: uppercase;
 }
 .o_main_navbar > ul > li.o_extra_menu_items.show > ul > li > a.dropdown-toggle {
@@ -1406,7 +1410,7 @@ div.o_boolean_toggle.custom-control.custom-checkbox > label.custom-control-label
     text-transform: none;
 }
 .show .dropdown-menu .dropdown-header {
-    color: $primary_accent
+    color: var(--primary-accent)
 }
 //menu+ color ends
 
@@ -1778,7 +1782,7 @@ div.o_input > .o_input {
         padding: 8px;
     }
     .modal.o_technical_modal.o_modal_full .modal-dialog .modal-content .modal-header {
-        background: $primary_accent;
+        background: var(--primary-accent);
     }
     .o_form_view .o_group .o_group_col_6 {
         width: 100%;
@@ -1811,7 +1815,7 @@ div.o_input > .o_input {
 }
 
 .badge {
-    border: 1px solid $primary_accent;
+    border: 1px solid var(--primary-accent);
     border-radius: 10px;
 }
 @media (max-width: 768px){
@@ -1849,7 +1853,7 @@ div.o_input > .o_input {
         margin: 12px 8px;
     }
     .o_kanban_view.o_kanban_grouped .o_kanban_mobile_tabs_container .o_kanban_mobile_tabs .o_kanban_mobile_tab.o_current {
-        border-bottom: 3px solid $primary_accent;
+        border-bottom: 3px solid var(--primary-accent);
     }
     .o_control_panel .breadcrumb > li.o_back_button:before {
         padding: 8px 0px;
