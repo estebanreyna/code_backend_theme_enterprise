@@ -69,7 +69,7 @@ color: #ffffff !important;
 }
 
 .dropdown-toggle:after {
-  background-color: lighten(var(--primary-accent), 10%) !important;
+  background-color: lighten($primary_accent 10%) !important;
 }
 
 .o_external_button {
@@ -162,7 +162,7 @@ color: #ffffff !important;
 }
 
 .oe_search_bgnd {
-  background-color: lighten(var(--primary-accent), 20%) !important;
+  background-color: lighten($primary_accent, 20%) !important;
   color: $inverse_accent !important;
 }
 
