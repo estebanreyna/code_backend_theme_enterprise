@@ -517,7 +517,7 @@ select.o_input.o_field_widget {
     background-color: #582c2c;
 }
 .o_ChatWindow {
-    .o-fullscreen.o-mobile {
+    &.o-fullscreen.o-mobile {
         .o_ChatWindow_thread {
             .o_MessageList {
                 background-color: #582c2c;
