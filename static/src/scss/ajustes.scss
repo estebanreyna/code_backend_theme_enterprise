@@ -197,6 +197,15 @@ button.btn.btn-link.o_ChatterTopbar_button.o_ChatterTopbar_buttonLogNote.o-borde
 .o_ChatterTopbar_actions {
     border: none;
 }
+//fixing activity tittle in chatter
+
+.o_ActivityBox_title.btn {
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
 
 // hoja de vista form ancho completo
 
@@ -503,12 +512,80 @@ select.o_input.o_field_widget {
     }
 }
 
-//@at-root
+//chat window
 
-.o_ActivityBox_title.btn {
-    display: flex;
-    align-items: center;
-    flex: 0 0 auto;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+.o_ChatWindow {
+    .o-fullscreen.o-mobile {
+        .o_ChatWindow_thread {
+            .o_composer {
+                .o_Composer_coreMain {
+                    align-items: flex-end;
+                    .o_Composer_textInput {
+                        background-color: white;
+                        border: 0;
+                        border-radius: 7px;
+                        border-top: none;
+                        border-bottom: none;
+                        border-left: none;
+                        box-shadow: 0 0 14px -4px #dbdbdb;
+                        margin: 8px;
+                        margin-top: 0;
+                        overflow: auto;
+                        min-width: calc(100% - 64px);
+                        .o_ComposerTextInput_textareaStyle {
+                            padding: 10px;
+                            resize: none;
+                            border: none;
+                            padding-right: 67px;
+                            min-height: 50px;
+                            overflow: auto;
+                        }
+                    }
+                    .o_Composer_buttons {
+                        background: transparent;
+                        border: 0;
+                        border-radius: 7px;
+                        max-height: 50px;
+                        display: flex;
+                        align-items: center;
+                        margin-right: 8px;
+                        margin-bottom: 8px;
+                        margin-left: -83px;
+                        align-self: inherit;
+                        .o_Composer_toolButtons {
+                            border-top: none;
+                            border-bottom: none;
+                            margin-right: 16px;
+                            background-color: transparent;
+                            .o_Composer_toolButtonSeparator {
+                                display: none;
+                            }
+                            .o_Composer_primaryToolButtons {
+                                &.o-composer-is-compact {
+                                    padding-right: 0.4rem;
+                                }
+                                .o_Composer_toolButton {
+                                    padding: 4px 12px;
+                                    margin-left: 0.15rem;
+                                    margin-right: 0.15rem;
+                                    border-radius: 50px;
+                                    max-height: 32px;
+                                }
+                            }
+                        }
+                        .o_Composer_actionButtons{
+                            .o_Composer_actionButton.o_Composer_button.o_Composer_buttonSend.btn.btn-primary {
+                                height: auto;
+                                min-height: 40px;
+                                width: 40px;
+                                border-radius: 50px;
+                                background: var(--primary-accent);
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
 }
