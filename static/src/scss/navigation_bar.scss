@@ -378,11 +378,11 @@ ul.o_menu_sections{
 }
 
 .o_burger_menu .o_burger_menu_content.o_burger_menu_dark {
-    background-color: --bg-darken;
+    background-color: var(--bg-darken);
 }
 
 .o_burger_menu .o_burger_menu_topbar{
-    background-color: --bg-darken;
+    background-color: var(--bg-darken);
     flex: 0 0 var(--header-height);
     .o_burger_menu_close {
       display: inline-flex;
