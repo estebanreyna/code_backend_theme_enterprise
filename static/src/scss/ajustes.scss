@@ -517,6 +517,9 @@ select.o_input.o_field_widget {
 .o_ChatWindow {
     &.o-fullscreen.o-mobile {
         .o_ChatWindow_thread {
+            .o_MessageList_separator hr {
+                border-color: transparent;
+            }
             .o_Composer {
                 border-radius: 0;
                 .o_Composer_coreMain {
@@ -532,6 +535,7 @@ select.o_input.o_field_widget {
                         margin: 8px;
                         margin-top: 0;
                         overflow: auto;
+                        height: auto;
                         .o_ComposerTextInput_textareaStyle {
                             padding: 10px;
                             resize: none;
