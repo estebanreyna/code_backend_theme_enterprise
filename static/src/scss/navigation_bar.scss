@@ -9,16 +9,16 @@
 color: #ffffff !important;
 }
 .btn-primary, .btn-primary:active, .o_searchview_facet_label {
-  background-color: $primary_accent;
+  background-color: var(--primary-accent);
   color: $inverse_accent;
 }
 .o_search_panel_section_icon {
-  color: $primary_accent !important;
+  color: var(--primary-accent) !important;
 }
 .btn-secondary {
   border-radius: 0;
-  border: solid 1px $primary_accent !important;
-  color: $primary_accent !important;
+  border: solid 1px var(--primary-accent) !important;
+  color: var(--primary-accent) !important;
 }
 .o_list_view .o_list_table thead {
     position: sticky;
@@ -26,7 +26,7 @@ color: #ffffff !important;
 }
 
 .breadcrumb-item > a, .o_menu_item > a {
-  color: $primary_accent !important;
+  color: var(--primary-accent) !important;
 }
 
 .fa-trash {
@@ -77,11 +77,11 @@ color: #ffffff !important;
 }
 
 .o_field_x2many_list_row_add > a {
-  color: $primary_accent !important;
+  color: var(--primary-accent) !important;
 }
 
 .nav-item > a {
-  color: $primary_accent !important;
+  color: var(--primary-accent) !important;
 }
 
 .o_main_navbar > .o_menu_apps > li > a > i {
@@ -90,18 +90,18 @@ color: #ffffff !important;
 }
 
 .o_form_uri > span {
-  color: $primary_accent !important;
+  color: var(--primary-accent) !important;
 }
 
 .o_required_modifier.o_input {
   background-color: $inverse_accent !important;
-  color: $primary_accent !important;
+  color: var(--primary-accent) !important;
   border-left: solid 3px #f46a6a !important;
 }
 
 .o_input {
-  border: solid 1px $primary_accent !important;
-  color: $primary_accent !important;
+  border: solid 1px var(--primary-accent) !important;
+  color: var(--primary-accent) !important;
 }
 
 .o-no-caret > i, button[aria-pressed=true] {
@@ -109,7 +109,7 @@ color: #ffffff !important;
 }
 
 .o_loading {
-  background-color: $primary_accent;
+  background-color: var(--primary-accent);
 }
 
 .fas {
@@ -131,7 +131,7 @@ color: #ffffff !important;
 
 .o_required_modifier.o_input, .o_required_modifier.o_input {
   background-color: $inverse_accent !important;
-  color: $primary_accent !important;
+  color: var(--primary-accent) !important;
   border-left: solid 3px #f46a6a !important;
 }
 .o_required_modifier .o_input, .o_required_modifier .o_input {
@@ -146,18 +146,18 @@ color: #ffffff !important;
 
 .o_required_modifier > .o_input_dropdown > .ui-autocomplete-input {
   background-color: $inverse_accent !important;
-  color: $primary_accent !important;
+  color: var(--primary-accent) !important;
   border-left: solid 3px #f46a6a !important;
 }
 
 .o_datepicker.o_field_date.o_field_widget.o_required_modifier > input {
   background-color: $inverse_accent !important;
-  color: $primary_accent !important;
+  color: var(--primary-accent) !important;
   border-left: solid 3px #f46a6a !important;
 }
 
 .ui-state-active {
-  background-color: $primary_accent !important;
+  background-color: var(--primary-accent) !important;
   color: $inverse_accent !important;
 }
 
@@ -167,16 +167,16 @@ color: #ffffff !important;
 }
 
 .oe_search_tab {
-  background-color: $primary_accent !important;
+  background-color: var(--primary-accent) !important;
   color: $inverse_accent !important;
 }
 
 .o_horizontal_separator {
-  color: $primary_accent !important
+  color: var(--primary-accent) !important
 }
 
 .o_field_widget.o_field_image .o_form_image_controls {
-  background-color: $primary_accent !important;
+  background-color: var(--primary-accent) !important;
 }
 
 .o_field_widget.o_field_image .o_form_image_controls > button {
@@ -184,7 +184,7 @@ color: #ffffff !important;
 }
 
 .dropdown-item.o_app.mt0:hover , .dropdown-item.o_app.mt0:hover > .a_app_menu_title{
-background-color: $primary_accent !important;
+background-color: var(--primary-accent) !important;
 color: $inverse_accent !important;
 }
 
@@ -192,34 +192,34 @@ color: $inverse_accent !important;
 // display: none !important;
 // }
 div.o_boolean_toggle.custom-control.custom-checkbox > input.custom-control-input:checked + label.custom-control-label::before {
-background-color: $primary_accent !important;
+background-color: var(--primary-accent) !important;
 }
 div.o_boolean_toggle.custom-control.custom-checkbox > input.custom-control-input:checked + label.custom-control-label::before {
-background-color: $primary_accent !important;
+background-color: var(--primary-accent) !important;
 }
 .o_mail_systray_item .o_mail_systray_dropdown .o_mail_systray_dropdown_top .o_filter_button.active {
-color: $primary_accent;
+color: var(--primary-accent);
 text-decoration: none;
 }
 .o_mail_user_status.o_user_online {
 color: #fff !important;
 }
 .o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button.btn-primary.disabled::after {
-   border-left-color: $primary_accent;
+   border-left-color: var(--primary-accent);
 }
 .btn-link {
 font-weight: 400;
-color: $primary_accent !important;
+color: var(--primary-accent) !important;
 text-decoration: none;
 }
 .o_thread_window_header {
-background-color: $primary_accent !important;
+background-color: var(--primary-accent) !important;
 }
 .o_thread_window_close,.o_thread_window_expand{
 color: $inverse_accent !important;
 }
 // .o_menu_sections, .o_menu_systray, .o_web_client > header{
-// background: $primary_accent !important;
+// background: var(--primary-accent) !important;
 // }
 .fa-building-o{
 color: white !important;
@@ -267,13 +267,13 @@ border: solid 2px #cf4137 !important;
 }
 .report_button{
 border-radius: 0 !important;
-border: solid 2px $primary_accent;
-background: $primary_accent !important;
+border: solid 2px var(--primary-accent);
+background: var(--primary-accent) !important;
 }
 .report_button:hover,.report_button:active{
 border-radius: 0 !important;
-border: solid 2px $primary_accent !important;
-color: $primary_accent !important;
+border: solid 2px var(--primary-accent) !important;
+color: var(--primary-accent) !important;
 background: $inverse_accent !important;
 }
 // .btn-primary{
@@ -351,12 +351,12 @@ background-color: #3d9bbb;
 // meeee
 
 .o_MessagingMenu .o_MessagingMenu_counter {
-    background-color : $primary_accent;
+    background-color : var(--primary-accent);
     border: none;
     color: #ffffff;
 }
 .o_mail_systray_item .o_notification_counter {
-  background: $primary_accent;
+  background: var(--primary-accent);
   border: none;
   color: #ffffff;
 }
@@ -378,11 +378,11 @@ ul.o_menu_sections{
 }
 
 .o_burger_menu .o_burger_menu_content.o_burger_menu_dark {
-    background-color: $bg_darken;
+    background-color: --bg-darken;
 }
 
 .o_burger_menu .o_burger_menu_topbar{
-    background-color: $bg_darken;
+    background-color: --bg-darken;
     flex: 0 0 var(--header-height);
     .o_burger_menu_close {
       display: inline-flex;
@@ -407,7 +407,7 @@ ul.o_menu_sections{
 }
 
 .o_web_client .o_mobile_search .o_mobile_search_header{
-    background-color: $bg_darken !important;
+    background-color: --bg-darken !important;
     align-items: center;
 }
 

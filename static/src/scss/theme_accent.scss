@@ -1,12 +1,18 @@
 :root {
     --header-height : 62px;
-    --bg-header : #24292e;
+    --primary-accent : #133cff;
+    --primary-hover : #1235da;
+    --secondary-accent : #f5f5f5;
+    --secondary_hover : #f2f2f2;
+    --bg-base : #f9fafb;
+    --bg-darken : #24292e;
+    --bg-header : var(--bg-darken);
     --color-header : #fff;
     --theme-color : var(--bg-header);
     @media screen and (max-width: 767.98px) {
       --header-height : 46px;
-      --bg-header : #f9fafb;
-      --color-header : #24292e;
+      --bg-header : var(--bg-base);
+      --color-header : var(--bg-darken);
       --theme-color : #fff;
     }
 }
