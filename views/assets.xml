@@ -45,7 +45,7 @@
             </xpath>
         </template>
 
-        <template id="botstrap_frontend_nucleeo" inherit_id="portal._assets_primary_variables" priority="1">
+        <template id="botstrap_frontend_nucleeo" inherit_id="website._assets_primary_variables" priority="17">
             <xpath expr="//link[last()]" position="after">
                 <link rel="stylesheet" href="https://bootstrapbuildspace.sfo2.cdn.digitaloceanspaces.com//qGvemdDoWCme/NTfMWkIiFaiX/bootstrap.min.css"/>
             </xpath>
