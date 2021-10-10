@@ -20,6 +20,7 @@
             <xpath expr="//link[last()]" position="after">
                 <!-- <link rel="stylesheet" href="/code_backend_theme_enterprise_2/static/src/scss/login.scss"/> -->
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet"/>
+                <link rel="stylesheet" href="/code_backend_theme_enterprise_2/static/src/scss/new_variables.scss"/>
             </xpath>
         </template>
 
