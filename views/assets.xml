@@ -46,11 +46,11 @@
             </xpath>
         </template>
 
-        <template id="botstrap_frontend_nucleeo" inherit_id="website._assets_primary_variables" priority="1">
+        <!-- <template id="botstrap_frontend_nucleeo" inherit_id="website._assets_primary_variables" priority="1">
             <xpath expr="//link[last()]" position="after">
                 <link rel="stylesheet" href="/code_backend_theme_enterprise_2/static/src/scss/new_variables.scss"/>
             </xpath>
-        </template>
+        </template> -->
     
     </data>
 </odoo>
