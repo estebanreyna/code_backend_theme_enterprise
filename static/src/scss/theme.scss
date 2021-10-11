@@ -17,6 +17,9 @@ a {
 a:hover {
     color: var(--primary-hover);
 }
+a:-webkit-any-link {
+    text-decoration: none;
+}
 //111 a.btn {
 //     height: auto !important;
 // }
