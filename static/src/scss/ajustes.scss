@@ -437,6 +437,11 @@ select.o_input.o_field_widget {
     }
 }
 
+.fc-view-container .btn.btn-primary, .fc-view-container .btn.btn-secondary {
+    box-sizing: border-box;
+}
+
+
 // apps home menu
 .o_web_client.o_home_menu_background > header > .o_main_navbar {
     & > a, & > button, & > ul > li > a, & > ul > li > a > i {
@@ -592,5 +597,18 @@ select.o_input.o_field_widget {
                 }
             }
         }
+    }
+}
+
+//apps icons in apps menu screen
+
+.o_home_menu {
+    .o_home_menu_scrollable .o_apps .o_app .o_app_icon {
+        max-width: 74px;
+    }
+    .o_apps .o_app .o_app_icon {
+        background-size: 60%;
+        background-color: #32314a;
+        border-radius: 25%;
     }
 }

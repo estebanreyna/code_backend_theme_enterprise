@@ -7,6 +7,7 @@
     --bg-base : #f9fafb;
     --bg-darken : #24292e;
     --bg-header : var(--bg-darken);
+    --bg-header-hover : #ffffff12;
     --color-header : #fff;
     --theme-color : var(--bg-header);
     @media screen and (max-width: 767.98px) {
@@ -34,4 +35,9 @@ $color_header: var(--color-header);
 
 $navbar-height: 62px;
 $navbar-height-sm: 46px;
+
+
+
+
 // $font-size-base: 1.0833333rem;
+
